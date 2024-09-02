@@ -64,10 +64,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'CareStream.urls'
 CORS_ORIGIN_ALLOW_ALL = True
-CSRF_TRUSTED_ORIGINS = ['https://care-stream-api.onrender.com']
+# CSRF_TRUSTED_ORIGINS = ['https://care-stream-api.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
-    'https://shakil-ahmmed-se.github.io/Care_Stream/',
+    'https://care-stream-api.onrender.com',
     'https://care-stream-api.onrender.com',
 ]
 
